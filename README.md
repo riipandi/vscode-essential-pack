@@ -1,4 +1,4 @@
-# Web Development Essential Extension Pack for Visual Studio Code
+# Essential Extension Pack for Visual Studio Code
 
 Collection of basic extensions to get started with web development in Visual Studio Code.
 
