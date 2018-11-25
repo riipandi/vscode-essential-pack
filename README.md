@@ -2,6 +2,31 @@
 
 Collection of basic extensions to get started with web development in Visual Studio Code.
 
+## Sample Configuration
+
+```json
+{
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.showIcons": true,
+  "editor.fontSize": 14,
+  "editor.wordWrap": "off",
+  "html.autoClosingTags": true,
+  "html.format.endWithNewline": true,
+  "html.format.indentHandlebars": true,
+  "emmet.triggerExpansionOnTab": true,
+  "auto-close-tag.enableAutoCloseTag": true,
+  "auto-close-tag.enableAutoCloseSelfClosingTag": true,
+  "auto-rename-tag.activationOnLanguage": [
+      "html", "xml", "php", "javascript", "vue"
+  ],
+  "[markdown]": {
+    "editor.wordWrap": "off",
+    "editor.quickSuggestions": false
+  },
+}
+```
+
 ## Packages
 
 - https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
