@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "publisher": "riipandi",
   "scripts": {
-    "publish": "vsce publish"
+    "deploy": "vsce publish"
   },
   "repository": {
     "type": "git",

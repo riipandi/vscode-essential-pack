@@ -1,0 +1,96 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js publish
+
+PATH: 
+  C:\Users\Tim\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Tim\bin;C:\Python27;C:\Python27\Scripts;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Intel\Shared Files\cpp\bin\Intel64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\dotnet;C:\Program Files (x86)\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;D:\Programs\sdk-flutter\bin;D:\Programs\sdk-android\tools;D:\Programs\sdk-android\platform-tools;D:\Programs\sdk-android\tools\bin;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Laragon\bin;C:\Laragon\bin\apache\httpd-2.4.35-win64-VC15\bin;C:\Laragon\bin\composer;C:\Laragon\bin\git\bin;C:\Laragon\bin\git\cmd;C:\Laragon\bin\git\mingw64\bin;C:\Laragon\bin\git\usr\bin;C:\Laragon\bin\laragon\utils;C:\Laragon\bin\mysql\mysql-5.7.19-winx64\bin;C:\Laragon\bin\nginx\nginx-1.14.0;C:\Laragon\bin\ngrok;C:\Laragon\bin\nodejs\node-v8;C:\Laragon\bin\notepad++;C:\Laragon\bin\php\php-7.2.11-Win32-VC15-x64;C:\Laragon\bin\putty;C:\Laragon\bin\redis\redis-x64-3.2.100;C:\Laragon\bin\telnet;C:\Laragon\bin\yarn\bin;C:\Laragon\usr\bin;C:\Users\Tim\AppData\Local\Yarn\config\global\node_modules\.bin;C:\Users\Tim\AppData\Roaming\Composer\vendor\bin;C:\Users\Tim\AppData\Roaming\npm;C:\Users\Tim\AppData\Local\Microsoft\WindowsApps;C:\Users\Tim\AppData\Local\hyper\app-2.0.0\resources\bin;C:\Users\Tim\AppData\Local\Yarn\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.12.3
+
+Node version: 
+  10.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:125278:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:783:16)
+      at ReadStream.onkeypress (readline.js:168:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:424:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1022:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:283:12)
+
+npm manifest: 
+  {
+    "name": "vscode-essential",
+    "displayName": "Web Extension Pack",
+    "description": "Visual Studio Code extension pack for essential web development",
+    "version": "1.0.0",
+    "publisher": "riipandi",
+    "scripts": {
+      "publish": "vsce publish"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/riipandi/vscode-essential-pack"
+    },
+    "engines": {
+      "vscode": "^1.28.0"
+    },
+    "icon": "icon.png",
+    "galleryBanner": {
+      "color": "#F34D71",
+      "theme": "dark"
+    },
+    "categories": [
+      "Extension Packs"
+    ],
+    "keywords": [
+      "website",
+      "webdev"
+    ],
+    "extensionPack": [
+      "PKief.material-icon-theme",
+      "zhuangtongfa.material-theme",
+      "mrmlnc.vscode-apache",
+      "shanoor.vscode-nginx",
+      "geeebe.duplicate",
+      "oderwat.indent-rainbow",
+      "christian-kohler.path-intellisense",
+      "CoenraadS.bracket-pair-colorizer-2",
+      "EditorConfig.EditorConfig",
+      "formulahendry.auto-rename-tag",
+      "formulahendry.auto-close-tag",
+      "yzhang.markdown-all-in-one",
+      "brenosolutions.sqlformatter",
+      "philsinatra.nested-comments",
+      "aaron-bond.better-comments",
+      "deerawan.vscode-faker",
+      "esbenp.prettier-vscode",
+      "wmaurer.change-case",
+      "redhat.vscode-yaml",
+      "wwm.better-align",
+      "pnp.polacode",
+      "sidthesloth.html5-boilerplate",
+      "mikestead.dotenv",
+      "sysoev.language-stylus",
+      "sibiraj-s.vscode-scss-formatter",
+      "Zignd.html-css-class-completion",
+      "pranaygp.vscode-css-peek",
+      "robinbentley.sass-indented",
+      "eg2.vscode-npm-script",
+      "christian-kohler.npm-intellisense"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
