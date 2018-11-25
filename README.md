@@ -2,7 +2,7 @@
 
 Collection of basic extensions to get started with web development in Visual Studio Code.
 
-## Example Configuration
+## Sample Configuration
 
 ```json
 {
