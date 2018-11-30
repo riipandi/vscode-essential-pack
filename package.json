@@ -57,6 +57,7 @@
     "pranaygp.vscode-css-peek",
     "robinbentley.sass-indented",
     "eg2.vscode-npm-script",
-    "christian-kohler.npm-intellisense"
+    "christian-kohler.npm-intellisense",
+    "felixrieseberg.vsc-travis-ci-status"
   ]
 }
