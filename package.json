@@ -2,7 +2,7 @@
   "name": "vscode-essential",
   "displayName": "Essential Extension Pack",
   "description": "Visual Studio Code extension pack for essential web development",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "publisher": "riipandi",
   "scripts": {
     "deploy": "vsce publish"
@@ -44,6 +44,7 @@
     "philsinatra.nested-comments",
     "aaron-bond.better-comments",
     "Gruntfuggly.todo-tree",
+    "doi.fileheadercomment",
     "deerawan.vscode-faker",
     "esbenp.prettier-vscode",
     "wmaurer.change-case",
@@ -59,6 +60,7 @@
     "pranaygp.vscode-css-peek",
     "robinbentley.sass-indented",
     "eg2.vscode-npm-script",
-    "christian-kohler.npm-intellisense"
+    "christian-kohler.npm-intellisense",
+    "felixrieseberg.vsc-travis-ci-status"
   ]
 }
